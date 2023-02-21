@@ -23,10 +23,10 @@ def click():
     print("clic")
     if on_pause.get():
         on_pause.set('false')
-        print("mybv1 : " + str(on_pause.get()))
+        #print("mybv1 : " + str(on_pause.get()))
     else:
         on_pause.set('true')
-        print("mybv1 : " + str(on_pause.get()))
+        #print("mybv1 : " + str(on_pause.get()))
 
 if __name__ == '__main__':
     window = tk.Tk()
